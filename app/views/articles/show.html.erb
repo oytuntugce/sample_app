@@ -1,0 +1,13 @@
+<p>
+  <strong>Title:</strong>
+  <%= @article.try(:title) %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @article.try(:body) %>
+</p>
+ 
+<%= link_to 'Back', articles_path %>
+
+s
